@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <div class="bg vh-100">
+        <nav class="navbar navbar-expand-lg mb-5 pb-5">
+            <div class="container">
+                <a class="navbar-brand text-white  fw-bolder"><i class="fa-solid fa-cloud-sun text-white fw-bolder"></i>Weather</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="contact.html">Contact</a>
+                        </li>
+    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container pt-5">
+
+            <form class="colorful-form">
+                <div class="form-group">
+                    <label class="form-label" for="name">Name:</label>
+                    <input required="" placeholder="Enter your name" class="form-input" type="text">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="email">Email:</label>
+                    <input required="" placeholder="Enter your email" class="form-input" name="email" id="email"
+                        type="email">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="message">Message:</label>
+                    <textarea required="" placeholder="Enter your message" class="form-input" name="message"
+                        id="message"></textarea>
+                </div>
+                <button class="form-button" type="submit">Submit</button>
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
